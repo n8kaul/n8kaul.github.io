@@ -1,0 +1,45 @@
+body,html {padding:0;margin:0;width:100%;  height: 100%; display:inline; /* Used in this example to enable scrolling */
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #4b5043ff;
+  position: fixed;
+  margin-right: -10vw;
+  width: 20vw;
+  min-height: 100%;
+  z-index: 1;
+  padding-top: 12px;
+}
+
+.navbar a {
+  display: block;
+  color: #f0ebd8ff;
+  text-align: left;
+  margin-left: 10px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.main {
+  padding-left: 25vw;
+  position: relative;
+}
+
+.test{
+
+ position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+	background-color: white
+}
+
+
+h1{
+	text-align: right
+}
